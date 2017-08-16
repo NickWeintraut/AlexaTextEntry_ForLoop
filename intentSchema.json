@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "ForLoop",
+      "samples": [
+        "write a for loop with {NumberIterations} iterations",
+        "write a for loop",
+        "add a for loop",
+        "add a loop",
+        "loop",
+        "loop {NumberIterations} times",
+        "add a loop for {NumberIterations} iterations"
+      ],
+      "slots": [
+        {
+          "name": "NumberIterations",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    }
+  ]
+}
